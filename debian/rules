@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+
+include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
+
+override_dh_auto_install:
+	$(overridden_command) --destdir=debian/tmp
+
+override_dh_install:
+	$(overridden_command)
+	if [ -d debian/kppp ]; then \
+	    chown root:dip debian/kppp/usr/bin/kppp && \
+	    chmod 0754 debian/kppp/usr/bin/kppp; \
+	fi
+
+override_dh_fixperms:
+	$(overridden_command) -Xusr/bin/kppp
+
