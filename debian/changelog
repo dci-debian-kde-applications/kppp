@@ -1,8 +1,8 @@
-kppp (4:4.13.1-1) UNRELEASED; urgency=medium
+kppp (4:4.13.1-1) unstable; urgency=medium
 
   * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 23 May 2014 16:57:00 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 23 May 2014 18:25:29 +0200
 
 kppp (4:4.12.2-2) unstable; urgency=medium
 
