@@ -8,7 +8,7 @@ override_dh_auto_install:
 override_dh_install:
 	$(overridden_command)
 	if [ -d debian/kppp ]; then \
-	    chown root:dip debian/kppp/usr/bin/kppp && \
+	    chown root:dialout debian/kppp/usr/bin/kppp && \
 	    chmod 0754 debian/kppp/usr/bin/kppp; \
 	fi
 
