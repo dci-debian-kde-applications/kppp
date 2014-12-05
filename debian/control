@@ -22,7 +22,7 @@ Package: kppp
 Section: net
 Architecture: linux-any
 Depends: ppp, ${misc:Depends}, ${shlibs:Depends}
-Suggests: khelpcenter4
+Suggests: khelpcenter
 Description: modem dialer for KDE
  KPPP is a modem dialer for connecting to a dial-up Internet Service Provider.
  It displays statistics and accounting information to help users keep track of
