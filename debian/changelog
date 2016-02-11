@@ -1,8 +1,27 @@
+kppp (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
+
+  * Debian merge: No remaining changes.
+  * New upstream release. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 11 Feb 2016 06:48:10 -0800
+
+kppp (4:15.12.0-1) experimental; urgency=medium
+
+  * New upstream release (15.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:24:07 +0100
+
 kppp (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:11:26 +0000
+
+kppp (4:15.08.3-1) unstable; urgency=medium
+
+  * New upstream release (15.08.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Dec 2015 12:39:50 +0100
 
 kppp (4:15.08.2-0ubuntu1) wily; urgency=medium
 
@@ -39,24 +58,31 @@ kppp (4:15.04.2-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 19:17:11 +0200
 
+kppp (4:15.04.0-1) unstable; urgency=medium
+
+  * New upstream release (15.04.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 19:10:46 +0200
+
 kppp (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 14:39:15 -0700
 
+kppp (4:14.12.2-1) experimental; urgency=medium
+
+  * Prepare Debian release.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 19 Feb 2015 11:32:50 +0100
+
 kppp (4:14.12.2-0ubuntu1) vivid; urgency=medium
-
-  * New upstream release
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 09:43:27 -0800
-
-kppp (4:14.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
   * Remove kdelibs5-dev depend version as there was not a new release.
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 12 Dec 2014 10:27:53 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 09:43:27 -0800
 
 kppp (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
@@ -251,7 +277,7 @@ kppp (4:4.10.90-0ubuntu1) saucy; urgency=low
   * New upstream beta release
 
   [ Philip Muškovac ]
-  * Debug package depends not suggests main package = binary:Version 
+  * Debug package depends not suggests main package = binary:Version
 
  -- Michał Zając <quintasan@kubuntu.org>  Fri, 28 Jun 2013 18:20:42 +0100
 
@@ -477,9 +503,9 @@ kdenetwork (4:4.8.3-0ubuntu2) quantal; urgency=low
 kdenetwork (4:4.8.3-0ubuntu1) quantal; urgency=low
 
   * New upstream release
-  * Update symbol files for gcc 4.7 
+  * Update symbol files for gcc 4.7
   * Build with DEB_BUILD_OPTIONS=noopt to work around bug 1002030
-  * Switch boost build-dep to 1.49 
+  * Switch boost build-dep to 1.49
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 20 May 2012 21:25:32 +0200
 
@@ -492,7 +518,7 @@ kdenetwork (4:4.8.2-0ubuntu1) precise; urgency=low
 
 kdenetwork (4:4.8.1-0ubuntu1) precise; urgency=low
 
-  * New upstream release 
+  * New upstream release
     - drop no_home_set.diff - applied upstream
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sat, 03 Mar 2012 22:40:36 +0100
@@ -696,7 +722,7 @@ kdenetwork (4:4.6.90-0ubuntu1) oneiric; urgency=low
   * Refreshed symbols
 
   [ Philip Muškovac ]
-  * fix debug package depends on kdebase-runtime-dbg -> kde-runtime-dbg 
+  * fix debug package depends on kdebase-runtime-dbg -> kde-runtime-dbg
     and recommends on kde-workspace-dbg
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 10 Jul 2011 12:36:35 +0200
@@ -951,7 +977,7 @@ kdenetwork (4:4.5.2-0ubuntu1) natty; urgency=low
 kdenetwork (4:4.5.1-0ubuntu2) maverick; urgency=low
 
   * Add kubuntu_04_googletalk_no_errormsg_and_knh_support.patch to:
-    + Not throw silly error messages when googletalk-gcall binary is not 
+    + Not throw silly error messages when googletalk-gcall binary is not
       installed
     + Send dbus message to kubuntu-notification-helper so it tells the user
       about installing kopete-gcall
@@ -1321,7 +1347,7 @@ kdenetwork (4:4.3.95-0ubuntu1) lucid; urgency=low
 
   [ Alessandro Ghersi ]
   * New upstream release:
-    - Bump build-depend versions 
+    - Bump build-depend versions
 
   [ Jonathan Thomas ]
   * Kopete recommends libqt4-sql-sqlite to prevent the statistics plugin from
@@ -1454,7 +1480,7 @@ kdenetwork (4:4.3.2-0ubuntu3) karmic; urgency=low
 
 kdenetwork (4:4.3.2-0ubuntu2) karmic; urgency=low
 
-  * Update kubuntu-message-indicator patches from 
+  * Update kubuntu-message-indicator patches from
     http://people.canonical.com/~agateau/indicate/kopete-4.3.1-20091007.tar.bz2
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 07 Oct 2009 18:41:22 +0100
@@ -1904,7 +1930,7 @@ kdenetwork (4:4.1.2-1ubuntu1) jaunty; urgency=low
       - kubuntu_04_fix_kopete_nowlistening_wording.diff
     - Do not use 97_fix_target_link_libraries.diff, we don't really need it
     - .orig md5sum different
-  * Removed antiquated debain/cdbs folder that was still there after we switched to 
+  * Removed antiquated debain/cdbs folder that was still there after we switched to
     kde4.mk
 
  -- Jonathan Thomas <echidnaman@kubuntu.org>  Fri, 07 Nov 2008 13:41:19 -0500
@@ -1928,7 +1954,7 @@ kdenetwork (4:4.1.2-0ubuntu4) intrepid; urgency=low
 
 kdenetwork (4:4.1.2-0ubuntu3) intrepid; urgency=low
 
-  * Patch KDE bug 172011 with kubuntu_03_fix_kopete_logout_crash.diff applied upstream 
+  * Patch KDE bug 172011 with kubuntu_03_fix_kopete_logout_crash.diff applied upstream
     for KDE 4.1.3. (LP: #283438)
 
  -- Jonathan Thomas <echidnaman@kubuntu.org>  Tue, 14 Oct 2008 17:56:37 -0400
@@ -2117,7 +2143,7 @@ kdenetwork (4:4.0.72-1) experimental; urgency=low
 
 kdenetwork (4:4.0.68+svn794641-1) experimental; urgency=low
 
-  * New upstream snapshot. 
+  * New upstream snapshot.
   * Update build depends, add  zlib1g-dev, libjpeg62-dev, libxml2-dev,
     libxslt1-dev and libssl-dev.
 
@@ -2284,7 +2310,7 @@ kdenetwork (4:3.5.8-1ubuntu1) hardy; urgency=low
 kdenetwork (4:3.5.8-1) unstable; urgency=low
 
   * New upstream release. (Closes: #444716, #369345)
-  * Resync patches. Applied upstream: 01_branch_673108-673109_kopete_webcam_fix 
+  * Resync patches. Applied upstream: 01_branch_673108-673109_kopete_webcam_fix
     01_branch_673117-673118_kopete_toolbar_fix.diff
   * Redo buildprep and bump build-dependencies to 3.5.8.
   * Add patch 23_ksirc_allow-colon-password.diff: ksirc allow colons in servers
@@ -2326,7 +2352,7 @@ kdenetwork (4:3.5.7-3) unstable; urgency=low
     Thanks to Stephan Hermann <sh@sourcecode.de> for this patch.
 
   +++ Changes by Sune Vuorela:
-  
+
   * Update uploaders.
   * Change kdenetwork meta package to arch: any. FIXME: Hackish. Basically a
     workaround that Depends: foo [!s390] doesn't work unless arch any. As this
@@ -2348,7 +2374,7 @@ kdenetwork (4:3.5.7-2ubuntu1) gutsy; urgency=low
   * Merge with Debian Unstable
   * Added XS-Vcs-Bzr: https://code.launchpad.net/~kubuntu-
     members/kdenetwork/debian
-  * Added 21_fix_krfb_crash.diff. (Closes LP: #52888, 
+  * Added 21_fix_krfb_crash.diff. (Closes LP: #52888,
     KDE Bug #124529)
   * Added 01_branch_673108-673109_kopete_webcam_fix.diff (LP: #89606)
   * Added 01_branch_673117-673118_kopete_toolbar_fix.diff (LP: #92845)
@@ -2411,7 +2437,7 @@ kdenetwork (4:3.5.6-2) unstable; urgency=low
     while running in the background (Closes: #401018).
 
   +++ Ana Beatriz Guerrero Lopez:
-  
+
   * Upload to unstable after Etch release.
 
   +++ Changes by Sune Vuorela:
@@ -2431,7 +2457,7 @@ kdenetwork (4:3.5.6-1) experimental; urgency=low
   * Update debian/knetwork-filesharing.install, samba kcm module was renamed.
   * Add myself to Uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Jan 2007 20:07:30 +0100 
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Jan 2007 20:07:30 +0100
 
 kdenetwork (4:3.5.6-0ubuntu9) feisty; urgency=low
 
@@ -2507,8 +2533,8 @@ kdenetwork (4:3.5.5-4) unstable; urgency=high
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Update Uploaders.
-  * Add patch 20_ksirc_405828.diff to fix buffer overflow that allows remote 
-    attackers to execute arbitrary code via a long PRIVMSG string when 
+  * Add patch 20_ksirc_405828.diff to fix buffer overflow that allows remote
+    attackers to execute arbitrary code via a long PRIVMSG string when
     connecting to an IRC server. CVE-2006-6811. (Closes: #405828)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue,  9 Jan 2007 07:26:45 +0100
@@ -2528,7 +2554,7 @@ kdenetwork (4:3.5.5-2ubuntu4) feisty; urgency=low
 
   * Remove build-dep on libgsmme-dev, failed main inclusion review
   * SECURITY UPDATE: ksirc denial of service vulnerability
-  * ksirc/iocontroller.cpp: An exploit in ksirc can trigger an assertion 
+  * ksirc/iocontroller.cpp: An exploit in ksirc can trigger an assertion
     and results in a NULL pointer dereference (crash) for non-debug builds.
   * Add kubuntu_04_ksirc_vulnerability.diff
   * References:
@@ -2605,7 +2631,7 @@ kdenetwork (4:3.5.5-0ubuntu1) edgy; urgency=low
 
   * New upstream release
   * 16_kopete_green_folder.diff removed, merged upstream
-        
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue,  3 Oct 2006 10:56:05 +0000
 
 kdenetwork (4:3.5.4-2) unstable; urgency=low
@@ -2686,7 +2712,7 @@ kdenetwork (4:3.5.3-1ubuntu3) edgy; urgency=low
 
 kdenetwork (4:3.5.3-1ubuntu2) edgy; urgency=low
 
-  * Remove debian/patches/18_meanwhile_gsize.diff, 
+  * Remove debian/patches/18_meanwhile_gsize.diff,
     debian/patches/19_meanwhile_gcc41.diff,
     keep meanwhile support separate in kopete-meanwhile
   * Build-dep on latest kdelibs, fix Qt binary compatibility break
@@ -2727,7 +2753,7 @@ kdenetwork (4:3.5.2-1) unstable; urgency=low
     Thanks. (Closes: #356893)
 
   * Add wireless-tools to kwifimanager's dependencies.
- 
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 29 Mar 2006 13:20:49 -0500
 
 kdenetwork (4:3.5.2-0ubuntu6) dapper; urgency=low
@@ -2753,7 +2779,7 @@ kdenetwork (4:3.5.2-0ubuntu4) dapper; urgency=low
 
 kdenetwork (4:3.5.2-0ubuntu3) dapper; urgency=low
 
-  * Add kubuntu_04_kopete_devices.diff to fix devices tab in kopete 
+  * Add kubuntu_04_kopete_devices.diff to fix devices tab in kopete
     (Closes: Malone #36800)
 
  -- Raphaël Pinson <raphink@ubuntu.com>  Sat, 22 Apr 2006 10:27:04 +0200
@@ -2816,7 +2842,7 @@ kdenetwork (4:3.5.1-0ubuntu3) dapper; urgency=low
 
 kdenetwork (4:3.5.1-0ubuntu2) dapper; urgency=low
 
-  * Add kubuntu_02_kopete_msn_file_transfer to fix MSN file transfer in Kopete 
+  * Add kubuntu_02_kopete_msn_file_transfer to fix MSN file transfer in Kopete
     (Closes: KDE Bug #113525)
 
  -- Raphaël Pinson <raphink@ubuntu.com>  Mon,  6 Mar 2006 20:09:30 +0100
@@ -2987,7 +3013,7 @@ kdenetwork (4:3.4.2-3) unstable; urgency=low
     crashes, thus this upload closes: #327843, #329708.
 
   +++ Changes by Luk Claes:
-  
+
   * Add patch to add missing entry for Hungarian to fix menu (Closes: #291009)
 
   * Add patch to use user's color for budy groups icon (Closes: #293035).
@@ -2999,7 +3025,7 @@ kdenetwork (4:3.4.2-2) unstable; urgency=low
   +++ Changes by Luk Claes:
 
   * Updated FSF address.
-   
+
   * Build with g++-3.4 on arm, m68k and hppa; kdenetwork also makes gcc 4.0 ICE
     as described in #323133.
 
@@ -3033,9 +3059,9 @@ kdenetwork (4:3.4.2-1) unstable; urgency=low
     Replaces) to eliminate potential problems.
 
   * kdict: Add a missing Replaces for kdebase-data.
-  
+
   +++ Changes by Luk Claes:
-  
+
   * Added me to uploaders
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 30 Aug 2005 16:40:41 +0200
@@ -3061,7 +3087,7 @@ kdenetwork (4:3.4.2-0ubuntu1) breezy; urgency=low
 
 kdenetwork (4:3.4.1-1) experimental; urgency=low
 
-  * New upstream release 
+  * New upstream release
 
   +++ Changes by Christopher Martin:
 
@@ -3508,7 +3534,7 @@ kdenetwork (4:2.2.2-13) unstable; urgency=low
 kdenetwork (4:2.2.2-12) unstable; urgency=low
 
   * debian/control:
-    - Build with libpng3. 
+    - Build with libpng3.
 
  -- Daniel Stone <daniel@sfarc.net>  Wed,  2 Jan 2002 21:22:22 -0500
 
@@ -3544,7 +3570,7 @@ kdenetwork (4:2.2.2-9) unstable; urgency=low
 kdenetwork (4:2.2.2-8) unstable; urgency=low
 
   * Apologies, *really* install the manpages now. I just pushed -7 then
-    because SIGILLs are really, really, important, and manpages are trivial. 
+    because SIGILLs are really, really, important, and manpages are trivial.
 
  -- Daniel Stone <daniel@sfarc.net>  Thu, 20 Dec 2001 15:44:04 +1100
 
@@ -3676,28 +3702,28 @@ kdenetwork (4:2.2.1-1.1) unstable; urgency=low
  -- Ivan E. Moore II <rkrusty@debian.org>  Fri, 28 Sep 2001 04:55:00 -0700
 
 kdenetwork (4:2.2.1-1) unstable; urgency=low
- 
+
   * New upstream version 2.2.1
   * Change maintainer
   * Lintian cleanup
   * SIGSEGV went away (Closes: #110001)
   * Add undocumented link (Closes: #101927)
   * Fixes /dev/console issues (Closes: #97643)
- 
+
  -- Ivan E. Moore II <rkrusty@debian.org>  Fri, 07 Sep 2001 14:46:00 -0700
 
 kdenetwork (4:2.2.0-final-1) unstable; urgency=low
- 
+
   * New upstream version 2.2
   * Add suggests for knewsticker-scripts
- 
+
  -- Ivan E. Moore II <rkrusty@debian.org>  Mon, 30 Jul 2001 00:01:00 -0700
 
 kdenetwork (4:2.2.0-0beta1-3) unstable; urgency=low
- 
+
   * Sync with upstream
   * More alpha build fixes
- 
+
  -- Ivan E. Moore II <rkrusty@debian.org>  Sat, 07 Jul 2001 03:39:00 -0700
 
 kdenetwork (4:2.2.0-0beta1-2) unstable; urgency=low
@@ -4268,4 +4294,3 @@ kdenetwork (971019-1) unstable; urgency=low
   * Initial Release (my old version disapeared from my hard disk ?)
 
  -- Andreas Jellinghaus <aj@debian.org>  Sun, 19 Oct 1997 17:59:43 +0200
-
