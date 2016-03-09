@@ -1,9 +1,9 @@
-kppp (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
+kppp (4:15.12.1-1ubuntu1) xenial; urgency=medium
 
   * Debian merge: No remaining changes.
   * New upstream release. 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 11 Feb 2016 06:48:10 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 11:00:18 +0100
 
 kppp (4:15.12.0-1) experimental; urgency=medium
 
