@@ -1,3 +1,11 @@
+kppp (4:15.12.0-2~1.gbpca7fed) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @ca7fede95e09f16ca093bbf6ad4b7f763dd2d829 **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:03:41 +0200
+
 kppp (4:15.12.0-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
