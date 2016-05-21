@@ -1,17 +1,13 @@
-kppp (4:15.12.0-2~2.gbp5335ea) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @5335ea147a256d135f8b1df45651b26222d08e03 **
+kppp (4:15.12.0-2) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @ca7fede95e09f16ca093bbf6ad4b7f763dd2d829 **
-
   * Bump Standards-Version to 3.9.8
 
   [ Maximiliano Curia ]
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 12:02:19 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 May 2016 21:08:23 +0200
 
 kppp (4:15.12.0-1) experimental; urgency=medium
 
